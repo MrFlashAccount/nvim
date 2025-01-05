@@ -1,6 +1,6 @@
 local options = {
   clipboard      = "unnamed,unnamedplus",   --- Copy-paste between vim and everything else
-  cmdheight      = 0,                       --- Give more space for displaying messages
+  cmdheight      = 1,                       --- Give more space for displaying messages
   completeopt    = "menu,menuone,noselect", --- Better autocompletion
   cursorline     = true,                    --- Highlight of current line
   emoji          = false,                   --- Fix emoji display
@@ -17,7 +17,7 @@ local options = {
   relativenumber = true,                    --- Enables relative number
   scrolloff      = 8,                       --- Always keep space when scrolling to bottom/top edge
   shiftwidth     = 2,                       --- Change a number of space characters inserted for indentation
-  showtabline    = 2,                       --- Always show tabs
+  showtabline    = 0,                       --- Always show tabs
   signcolumn     = "yes:2",                 --- Add extra sign column next to line number
   smartcase      = true,                    --- Uses case in search
   smartindent    = true,                    --- Makes indenting smart

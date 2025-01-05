@@ -9,15 +9,15 @@ local c = require("tokyonight.colors").setup()
 -- │ Setup Colorscheme                                        │
 -- ╰──────────────────────────────────────────────────────────╯
 tokyonight.setup({
-  style = "night",
-  transparent = vim.g.neovide and true or false, -- Enable this to disable setting the background color
-  terminal_colors = true,                        -- Configure the colors used when opening a `:terminal` in Neovim
+  style = "moon",
+  transparent = true,    -- Enable this to disable setting the background color
+  terminal_colors = true, -- Configure the colors used when opening a `:terminal` in Neovim
   styles = {
     -- Style to be applied to different syntax groups
     -- Value is any valid attr-list value `:help attr-list`
     comments = "NONE",
     keywords = "italic",
-    functions = "NONE",
+    functions = "italic",
     variables = "NONE",
     -- Background styles. Can be "dark", "transparent" or "normal"
     sidebars = vim.g.neovide and "transparent" or "dark", -- style for sidebars, see below
